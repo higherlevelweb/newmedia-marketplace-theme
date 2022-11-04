@@ -1,4 +1,4 @@
-# ignore everything in the root except the "wp-content" directory.
+# ignore vendor css directories
 css/animate.css/
 css/bootstrap/
 css/bootstrap-rtl/
@@ -7,6 +7,9 @@ css/fonts/
 css/glyphicons/
 css/material-design-icons/
 css/scss/
+
+# ignore vendor libs directories
+libs/
 
 # ignore log files and databases
 *.log
