@@ -71,9 +71,9 @@
               </a>
               <div class="site-branding">
               <!-- brand -->
-              <a href="index.html" class="navbar-brand md">              
-              	<img src="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/images/logo.svg" alt="." class="hide">
-              	<span class="hidden-folded inline">Aetheron Media</span>
+
+               <a href="index.html" class="navbar-brand md">
+              <img src="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/images/logo.svg" alt="Aetheron Media" id="logo">
               </a>
               <!-- / brand -->
               </div><!-- .site-branding -->

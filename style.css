@@ -646,6 +646,10 @@ textarea {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	margin-left: auto;
+  	margin-right: auto;
+  	min-width: 10%;
+  	width: 10%;
 }
 
 .main-navigation ul ul {

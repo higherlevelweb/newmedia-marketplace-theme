@@ -1,5 +1,5 @@
 /* 
-
+ 
 */
 html {
   background: transparent; }
@@ -74,6 +74,13 @@ sup {
 
 .center-block {
   margin: 0 auto; }
+
+/*--------------------------------------------------------------
+# Theme Branding
+--------------------------------------------------------------*/
+.site-branding #logo {
+  height: 3.5rem;
+}
 
 @media (max-width: 767px) {
   .pull-none-sm {
