@@ -103,17 +103,37 @@
                 <ul class="nav navbar-nav nav-md inline text-primary-hover">
                   <li class="nav-item">
                     <a href="home.html" class="nav-link">
-                      <span class="nav-text">Site</span>
+                      <span class="nav-text">Music</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="player.html" class="nav-link">
-                      <span class="nav-text">Web App</span>
+                      <span class="nav-text">Podcasts</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="rtl.html" class="nav-link">
-                      <span class="nav-text">Rtl</span>
+                      <span class="nav-text">Video</span>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="rtl.html" class="nav-link">
+                      <span class="nav-text">Books</span>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="rtl.html" class="nav-link">
+                      <span class="nav-text">Photography</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="rtl.html" class="nav-link">
+                      <span class="nav-text">Graphics</span>
+                    </a>
+                  </li>
+                    <li class="nav-item">
+                    <a href="rtl.html" class="nav-link">
+                      <span class="nav-text">Merchandise</span>
                     </a>
                   </li>
                 </ul>

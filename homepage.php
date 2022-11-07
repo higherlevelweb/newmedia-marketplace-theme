@@ -1,6 +1,7 @@
 <?php
 /**
- * Template for displaying all pages
+* Template Name: homepage
+ * Template for displaying homepage
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
