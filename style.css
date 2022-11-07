@@ -645,11 +645,10 @@ textarea {
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+	padding-left: 10px;
 	margin-left: auto;
   	margin-right: auto;
-  	min-width: 10%;
-  	width: 10%;
+  	width: 530px;
 }
 
 .main-navigation ul ul {
@@ -688,6 +687,15 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+}
+
+/* Slider Custom */
+
+.slider-img {
+    margin-top: 11%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Small menu. */

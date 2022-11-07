@@ -30,9 +30,7 @@ get_header();
 		<div class="col-lg-2"></div>
 		<div class="col-lg-8 text-center">
 			<div class="p-a-lg">
-				<h2 class="display-4 m-y-lg">A simple, fast and responsive music template</h2>
-				<h6 class="text-muted m-b-lg">HTML5 Music Template</h6>
-				<a href="home.html" class="btn circle btn-outline b-primary m-b-lg p-x-md">Get it now</a>
+				<div><img src="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/images/logo.svg" alt="Aetheron Media" id="logo" class="slider-img"></div>
 			</div>
 		</div>
 		<div class="col-lg-2"></div>
@@ -41,9 +39,9 @@ get_header();
 		<div class="col-lg-2"></div>
 		<div class="col-lg-8 text-center">
 			<div class="p-a-lg">
-				<h2 class="display-4 m-y-lg">Bootstrap 4 CSS framework</h2>
-				<h6 class="text-muted m-b-lg">Responsive layout</h6>
-				<a href="player.html" class="btn circle btn-outline b-primary m-b-lg p-x-md">View App</a>
+				<h2 class="display-4 m-y-lg">Where arts and technology intersect</h2>
+				<h6 class="text-muted m-b-lg">Original high quality digital media productions</h6>
+				<a href="player.html" class="btn circle btn-outline b-primary m-b-lg p-x-md">Explore platform</a>
 			</div>
 		</div>
 		<div class="col-lg-2"></div>
@@ -52,9 +50,9 @@ get_header();
 		<div class="col-lg-2"></div>
 		<div class="col-lg-8 text-center">
 			<div class="p-a-lg">
-				<h2 class="display-4 m-y-lg">Ajax powered page switch with great experience</h2>
-				<h6 class="text-muted m-b-lg">No refresh page when switching pages</h6>
-				<a href="rtl.html" class="btn circle btn-outline b-primary m-b-lg p-x-md">Get RTL</a>
+				<h2 class="display-4 m-y-lg">Showcasing creators to the world</h2>
+				<h6 class="text-muted m-b-lg">Creative marketplace with shining online presences</h6>
+				<a href="rtl.html" class="btn circle btn-outline b-primary m-b-lg p-x-md">Get on the platform</a>
 			</div>
 		</div>
 		<div class="col-lg-2"></div>
@@ -65,17 +63,17 @@ get_header();
 		<div class="black cover cover-gd" style="background-image: url('https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/images/b1.jpg');">
 			<div class="p-a-lg text-center">
 				<h3 class="display-3 m-y-lg">Music</h3>
-				<p class="text-muted text-md m-b-lg">Get ready for high sound quality.</p>
-				<a href="player.html" class="btn circle white m-b-lg p-x-md">Try Free</a>
+				<p class="text-muted text-md m-b-lg">Inspiring artist music and audio in high quality sound.</p>
+				<a href="player.html" class="btn circle white m-b-lg p-x-md">Listen ></a>
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-6 black lt">
 		<div class="black cover cover-gd" style="background-image: url('https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/images/b7.jpg');">
 			<div class="p-a-lg text-center">
-				<h3 class="display-3 m-y-lg">Artists</h3>
-				<p class="text-muted text-md m-b-lg">Listen to your favorite Artists.</p>
-				<a href="home.html" class="btn circle white m-b-lg p-x-md">View Artists</a>
+				<h3 class="display-3 m-y-lg">Digital</h3>
+				<p class="text-muted text-md m-b-lg">Original podcasts, videos, books, photography, and graphics.</p>
+				<a href="home.html" class="btn circle white m-b-lg p-x-md">Discover ></a>
 			</div>
 		</div>
 	</div>
@@ -85,9 +83,9 @@ get_header();
 	<div class="col-md-3"></div>
 	<div class="col-md-6">
 		<div class="p-a-lg text-center">
-			<h3 class="display-4 m-y-lg">Light, Grey, Dark, Black themes</h3>
-			<p class="text-muted text-md m-b-lg">Config any blocks with any colors</p>
-			<a href="home.html" class="btn circle btn-outline b-black m-b-lg p-x-md">Try Settings</a>
+			<h3 class="display-4 m-y-lg">Artist Merchandise</h3>
+			<p class="text-muted text-md m-b-lg">Unique t-shirts, other personalized items, and printed posters, designed by your favourite artists.</p>
+			<a href="home.html" class="btn circle btn-outline b-black m-b-lg p-x-md">See unique offers ></a>
 		</div>
 	</div>
 	<div class="col-md-3"></div>
@@ -97,20 +95,20 @@ get_header();
 	<div class="row-col">
 		<div class="col-md-4">
 			<div class="p-a-lg text-center">
-				<h4 class="m-y-lg">One Css framework, Unlimited options &amp; variables</h4>
-				<p class="text-muted text-md m-b-lg">Colors, layouts, components and widgets. we pre-build them for you.</p>
+				<h4 class="m-y-lg">Digital Content Creators</h4>
+				<p class="text-muted text-md m-b-lg">Whether you're a youtuber, podcaster, marketer, or student, you've got projects, and we've got resources to help you enhance them.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="p-a-lg text-center">
-				<h4 class="m-y-lg">Two layouts, Horizontal and side navigation</h4>
-				<p class="text-muted text-md m-b-lg">With the flexiable layout options, you can build responsive layouts.</p>
+				<h4 class="m-y-lg">Producers, Speakers, Filmmakers, Authors, Photographers, and Graphic Designers</h4>
+				<p class="text-muted text-md m-b-lg">Our passion is to promote and enable music and digital artists, and great minds, to earn and keep more for doing what they love.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="p-a-lg text-center">
-				<h4 class="m-y-lg">Three templates, Landing, App, Site templates</h4>
-				<p class="text-muted text-md m-b-lg">Choose the suitable one for your needs.</p>
+				<h4 class="m-y-lg">One platform to feature it all</h4>
+				<p class="text-muted text-md m-b-lg">Our mission is to spread creative and inspired music and digital works, as well as unique artist merchandise.</p>
 			</div>
 		</div>
 	</div>

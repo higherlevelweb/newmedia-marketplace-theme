@@ -34,7 +34,7 @@
         						<a class="nav-link" href="#">About us</a>
         					</li>
         					<li class="nav-item">
-        						<a class="nav-link" href="#">Mobile apps</a>
+        						<a class="nav-link" href="#">How it works</a>
         					</li>
         					<li class="nav-item">
         						<a class="nav-link" href="#">Blog</a>
@@ -50,16 +50,16 @@
         			<div class="m-b-md">
         				<ul class="nav l-h-2x _600">
         					<li class="nav-item">
-        						<a class="nav-link" href="#">Help</a>
+        						<a class="nav-link" href="/docs/">Docs</a>
         					</li>
         					<li class="nav-item">
-        						<a class="nav-link" href="#">Support</a>
+        						<a class="nav-link" href="/support/">Support</a>
         					</li>
         					<li class="nav-item">
-        						<a class="nav-link" href="#">Legal</a>
+        						<a class="nav-link" href="/legal/">Legal</a>
         					</li>
         					<li class="nav-item">
-        						<a class="nav-link" href="#">Copyright</a>
+        						<a class="nav-link" href="/copyright/">Copyright</a>
         					</li>
         				</ul>
         			</div>
@@ -68,14 +68,14 @@
         			<h6 class="text-u-c m-b text-muted">Connect</h6>
         			<div class="m-b-md">
         				<ul class="nav l-h-2x _600">
+						    <li class="nav-item">
+        						<a class="nav-link" href="#">Instagram</a>
+        					</li>
         					<li class="nav-item">
         						<a class="nav-link" href="#">Facebook</a>
         					</li>
         					<li class="nav-item">
         						<a class="nav-link" href="#">Twitter</a>
-        					</li>
-        					<li class="nav-item">
-        						<a class="nav-link" href="#">Google+</a>
         					</li>
         				</ul>
         			</div>

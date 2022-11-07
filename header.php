@@ -82,12 +82,12 @@
               <!-- nabar right -->
               <ul class="nav navbar-nav pull-right">
                 <li class="nav-item">
-                  <a href="signup.html" class="nav-link">
+                  <a href="/signup/" class="nav-link">
                     Signup
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="signin.html" class="nav-link">
+                  <a href="/signin/" class="nav-link">
                     <span class="btn btn-sm rounded primary _600">
                       Signin
                     </span>
@@ -102,37 +102,37 @@
                 <!-- link and dropdown -->
                 <ul class="nav navbar-nav nav-md inline text-primary-hover">
                   <li class="nav-item">
-                    <a href="home.html" class="nav-link">
+                    <a href="/music/" class="nav-link">
                       <span class="nav-text">Music</span>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="player.html" class="nav-link">
+                    <a href="/podcasts/" class="nav-link">
                       <span class="nav-text">Podcasts</span>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="rtl.html" class="nav-link">
+                    <a href="/video/" class="nav-link">
                       <span class="nav-text">Video</span>
                     </a>
                   </li>
                    <li class="nav-item">
-                    <a href="rtl.html" class="nav-link">
+                    <a href="/books/" class="nav-link">
                       <span class="nav-text">Books</span>
                     </a>
                   </li>
                    <li class="nav-item">
-                    <a href="rtl.html" class="nav-link">
+                    <a href="/photography/" class="nav-link">
                       <span class="nav-text">Photography</span>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="rtl.html" class="nav-link">
+                    <a href="/graphics/" class="nav-link">
                       <span class="nav-text">Graphics</span>
                     </a>
                   </li>
                     <li class="nav-item">
-                    <a href="rtl.html" class="nav-link">
+                    <a href="/merchandise/" class="nav-link">
                       <span class="nav-text">Merchandise</span>
                     </a>
                   </li>
