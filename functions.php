@@ -135,7 +135,7 @@ function newmedia_marketplace_widgets_init() {
 add_action( 'widgets_init', 'newmedia_marketplace_widgets_init' );
 
 /**
- * Enqueue scripts and styles.
+ * Enqueue default scripts and styles.
  */
 function newmedia_marketplace_scripts() {
 	wp_enqueue_style( 'newmedia-marketplace-style', get_stylesheet_uri(), array(), _S_VERSION );
@@ -148,6 +148,50 @@ function newmedia_marketplace_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'newmedia_marketplace_scripts' );
+
+/**
+ * Enqueue theme custom scripts and styles.
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/animate.css/animate.min.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/glyphicons/glyphicons.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/font-awesome/css/font-awesome.min.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/material-design-icons/material-design-icons.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/styles/app.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/styles/style.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/styles/font.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/libs/mediaelement/build/mediaelementplayer.min.css" type="text/css" />
+ * <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/libs/mediaelement/build/mep.css" type="text/css" />
+*/
+
+function theme_styles()  
+{ 
+
+	// Register styles for loading only on certain pages
+	wp_register_style( 'owl-carousel', get_template_directory_uri() . '/libs/owl.carousel/dist/assets/owl.carousel.min.css' );
+	wp_register_style( 'owl-theme', get_template_directory_uri() . '/libs/owl.carousel/dist/assets/owl.theme.css"' );
+
+	// Enqueue all of the styles that need to appear on all pages
+	wp_enqueue_style( 'animate', get_template_directory_uri() . '/css/animate.css/animate.min.css' );
+	wp_enqueue_style( 'glyphicons', get_template_directory_uri() . '/css/glyphicons/glyphicons.css' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome/css/font-awesome.min.css' );
+	wp_enqueue_style( 'material-design-icons', get_template_directory_uri() . '/css/material-design-icons/material-design-icons.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap/dist/css/bootstrap.min.css' );
+	wp_enqueue_style( 'app', get_template_directory_uri() . '/css/styles/app.css' );
+	wp_enqueue_style( 'font', get_template_directory_uri() . '/css/styles/font.css' );
+	wp_enqueue_style( 'media-element-player', get_template_directory_uri() . '/libs/mediaelement/build/mediaelementplayer.min.css' );
+	wp_enqueue_style( 'mep', get_template_directory_uri() . '/libs/mediaelement/build/mep.css' );
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/styles/style.css' );
+
+	// Conditionally load registered styles for loading only on certain pages
+	if(is_page('home')) {
+		wp_enqueue_style('owl-carousel');
+		wp_enqueue_style('owl-theme');
+	} else {
+		echo "Not home page";
+	}
+
+}
+add_action('wp_enqueue_scripts', 'theme_styles');
 
 /**
  * Implement the Custom Header feature.

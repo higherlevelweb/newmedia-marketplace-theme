@@ -30,25 +30,6 @@
   <link rel="shortcut icon" sizes="196x196" href="images/logo.png">
   
   <?php wp_head(); ?>
-  
-  <!-- style -->
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/animate.css/animate.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/glyphicons/glyphicons.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/font-awesome/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/material-design-icons/material-design-icons.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-
-  <!-- build:css css/styles/app.min.css -->
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/styles/app.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/styles/style.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/css/styles/font.css" type="text/css" />
-  
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/libs/owl.carousel/dist/assets/owl.carousel.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/libs/owl.carousel/dist/assets/owl.theme.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/libs/mediaelement/build/mediaelementplayer.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://aetheronmedia.com/wp-content/themes/newmedia-marketplace-theme/libs/mediaelement/build/mep.css" type="text/css" />
-
-  <!-- endbuild -->
 
 </head>
 
